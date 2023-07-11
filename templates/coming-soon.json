@@ -1,0 +1,313 @@
+{
+    "version": "0.4",
+    "title": "Coming Soon",
+    "type": "page",
+    "metadata": {
+        "template_type": "single-page",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "elementor_canvas"
+    },
+    "content": [
+        {
+            "id": "5bb94d6a",
+            "settings": {
+                "height": "full",
+                "background_background": "classic",
+                "background_image": {
+                    "id": 86,
+                    "url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/meeting-of-lawyers-2021-09-01-16-31-37-utc.jpg",
+                    "alt": "",
+                    "source": "library"
+                },
+                "background_attachment": "fixed",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "background_overlay_background": "classic",
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 0.8,
+                    "sizes": []
+                },
+                "__globals__": {
+                    "background_overlay_color": "globals\/colors?id=primary"
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "80",
+                    "right": "0",
+                    "bottom": "80",
+                    "left": "0",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "6d9cf305",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": 100,
+                        "space_between_widgets": 10,
+                        "margin": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "10",
+                            "bottom": "0",
+                            "left": "10",
+                            "isLinked": false
+                        },
+                        "margin_tablet": {
+                            "unit": "%",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "margin_mobile": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "4969181a",
+                            "settings": {
+                                "image": {
+                                    "id": 80,
+                                    "url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/logo-03.png",
+                                    "alt": "",
+                                    "source": "library"
+                                },
+                                "image_size": "full"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "image",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "79b93885",
+                            "settings": {
+                                "title": "Something Awesome Is Coming",
+                                "align": "center",
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=3c2ad25"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "7b0a4e3e",
+                            "settings": {
+                                "title": "keep Waiting to get more awesome things",
+                                "header_size": "h4",
+                                "align": "center",
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=secondary"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "2a5a067b",
+                            "settings": {
+                                "style": "slashes",
+                                "align": "center",
+                                "text": "Divider",
+                                "color": "#FFFFFFBF",
+                                "pattern_height": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "pattern_size": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "gap": {
+                                    "unit": "px",
+                                    "size": 10,
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "color": ""
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "divider",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "4492c36c",
+                            "settings": {
+                                "due_date": "2023-04-21 10:25",
+                                "label_days": "Days",
+                                "label_hours": "Hours",
+                                "label_minutes": "Minutes",
+                                "label_seconds": "Seconds",
+                                "box_background_color": "#90C82400",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "30",
+                                    "right": "0",
+                                    "bottom": "30",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "box_background_color": "",
+                                    "digits_typography_typography": "globals\/typography?id=eb63c04",
+                                    "label_typography_typography": "globals\/typography?id=83a0a2f",
+                                    "digits_color": "globals\/colors?id=secondary",
+                                    "label_color": "globals\/colors?id=3c2ad25"
+                                },
+                                "label_display": "inline",
+                                "box_spacing": {
+                                    "unit": "px",
+                                    "size": 30,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "countdown",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "17355f7d",
+                            "settings": {
+                                "ekit_socialmedia_add_icons": [
+                                    {
+                                        "ekit_socialmedia_label": "Facebook",
+                                        "ekit_socialmedia_icon_hover_bg_color": "#90C824",
+                                        "_id": "e66b50f",
+                                        "ekit_socialmedia_icon_color": "#FFFFFF",
+                                        "ekit_socialmedia_icon_bg_color": "#FFFFFF45",
+                                        "__globals__": {
+                                            "ekit_socialmedia_icon_color": "globals\/colors?id=3c2ad25",
+                                            "ekit_socialmedia_icon_hover_bg_color": "globals\/colors?id=primary",
+                                            "ekit_socialmedia_icon_bg_color": ""
+                                        }
+                                    },
+                                    {
+                                        "ekit_socialmedia_icons": {
+                                            "value": "icon icon-twitter",
+                                            "library": "ekiticons"
+                                        },
+                                        "ekit_socialmedia_label": "Twitter",
+                                        "_id": "2d29fd5",
+                                        "ekit_socialmedia_icon_bg_color": "#FFFFFF45",
+                                        "__globals__": {
+                                            "ekit_socialmedia_icon_color": "globals\/colors?id=3c2ad25",
+                                            "ekit_socialmedia_icon_hover_bg_color": "globals\/colors?id=accent"
+                                        }
+                                    },
+                                    {
+                                        "ekit_socialmedia_icons": {
+                                            "value": "icon icon-linkedin",
+                                            "library": "ekiticons"
+                                        },
+                                        "ekit_socialmedia_label": "LinkedIn",
+                                        "ekit_socialmedia_icon_hover_bg_color": "#90C824",
+                                        "_id": "9611e6b",
+                                        "ekit_socialmedia_icon_color": "#FFFFFF",
+                                        "ekit_socialmedia_icon_bg_color": "#FFFFFF45",
+                                        "__globals__": {
+                                            "ekit_socialmedia_icon_color": "globals\/colors?id=3c2ad25",
+                                            "ekit_socialmedia_icon_hover_bg_color": "globals\/colors?id=accent",
+                                            "ekit_socialmedia_icon_bg_color": ""
+                                        }
+                                    }
+                                ],
+                                "ekit_socialmedai_list_margin": {
+                                    "unit": "px",
+                                    "top": "3",
+                                    "right": "3",
+                                    "bottom": "3",
+                                    "left": "3",
+                                    "isLinked": true
+                                },
+                                "ekit_socialmedai_list_icon_size": {
+                                    "unit": "px",
+                                    "size": 16,
+                                    "sizes": []
+                                },
+                                "ekit_socialmedai_list_width": {
+                                    "unit": "px",
+                                    "size": 40,
+                                    "sizes": []
+                                },
+                                "ekit_socialmedai_list_height": {
+                                    "unit": "px",
+                                    "size": 40,
+                                    "sizes": []
+                                },
+                                "ekit_socialmedai_list_line_height": {
+                                    "unit": "px",
+                                    "size": 40,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "elementskit-social-media",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "7c32ed45",
+                            "settings": [],
+                            "elements": [
+                                {
+                                    "id": "44e3d962",
+                                    "settings": {
+                                        "_column_size": 100,
+                                        "_inline_size": null
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "67e981c1",
+                                            "settings": {
+                                                "title": "Copyright \u00a92022 Lawberg. All Rights Reserved Copyright",
+                                                "header_size": "p",
+                                                "align": "center",
+                                                "__globals__": {
+                                                    "typography_typography": "globals\/typography?id=text",
+                                                    "title_color": "globals\/colors?id=3c2ad25"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ]
+}

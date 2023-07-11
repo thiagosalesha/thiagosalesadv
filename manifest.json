@@ -1,0 +1,1487 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Lawberg - Lawyer & Law Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/?elementor_library=header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/?elementor_library=footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Archive",
+            "screenshot": "screenshots\/archive.jpg",
+            "source": "templates\/archive.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/?elementor_library=archive",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/?elementor_library=single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Search Result",
+            "screenshot": "screenshots\/search-result.jpg",
+            "source": "templates\/search-result.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/?elementor_library=search-result",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-search",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive\/search"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: Search Results."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Error 404",
+            "screenshot": "screenshots\/error-404.jpg",
+            "source": "templates\/error-404.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/?elementor_library=error-404",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Products Archive",
+            "screenshot": "screenshots\/products-archive.jpg",
+            "source": "templates\/products-archive.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/?elementor_library=products-archive",
+            "type": "product-archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "product-archive",
+                "elementor_pro_conditions": [
+                    "include\/product_archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Product Archive\" template for Elementor Pro.",
+                    "This template will display on: All Product Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Product",
+            "screenshot": "screenshots\/single-product.jpg",
+            "source": "templates\/single-product.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/?elementor_library=single-product",
+            "type": "product",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "product",
+                "elementor_pro_conditions": [
+                    "include\/product"
+                ],
+                "additional_template_information": [
+                    "This is a \"Product\" template for Elementor Pro.",
+                    "This template will display on: Products."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Cart",
+            "screenshot": "screenshots\/cart.jpg",
+            "source": "templates\/cart.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/template-kit\/cart\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Checkout",
+            "screenshot": "screenshots\/checkout.jpg",
+            "source": "templates\/checkout.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/template-kit\/checkout\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "My Account",
+            "screenshot": "screenshots\/my-account.jpg",
+            "source": "templates\/my-account.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/template-kit\/my-account\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services Detail",
+            "screenshot": "screenshots\/services-detail.jpg",
+            "source": "templates\/services-detail.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/template-kit\/services-detail\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Our Cases",
+            "screenshot": "screenshots\/our-cases.jpg",
+            "source": "templates\/our-cases.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/template-kit\/our-cases\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Case Detail",
+            "screenshot": "screenshots\/case-detail.jpg",
+            "source": "templates\/case-detail.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/template-kit\/case-detail\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Attorney",
+            "screenshot": "screenshots\/attorney.jpg",
+            "source": "templates\/attorney.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/template-kit\/attorney\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Attorney Detail",
+            "screenshot": "screenshots\/attorney-detail.jpg",
+            "source": "templates\/attorney-detail.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/template-kit\/attorney-detail\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Testimonials",
+            "screenshot": "screenshots\/testimonials.jpg",
+            "source": "templates\/testimonials.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/template-kit\/testimonails\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Faq",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.jpg",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Coming Soon",
+            "screenshot": "screenshots\/coming-soon.jpg",
+            "source": "templates\/coming-soon.json",
+            "preview_url": "https:\/\/htmldesigntemplates.com\/lawberg\/template-kit\/coming-soon\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor Pro",
+            "version": "3.6.3",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.9.0",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.7.5",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Primary Addon for Elementor",
+            "version": "1.5.2",
+            "file": "primary-addon-for-elementor\/primary-addon-for-elementor.php",
+            "author": "NicheAddons"
+        },
+        {
+            "name": "WooCommerce",
+            "version": "7.1.1",
+            "file": "woocommerce\/woocommerce.php",
+            "author": "Automattic"
+        }
+    ],
+    "images": [
+        {
+            "filename": "meeting-of-lawyers-2021-09-01-16-31-37-utc-e1670827227120.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/meeting-of-lawyers-2021-09-01-16-31-37-utc-e1670827227120-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/our-cases.json",
+                    "name": "Our Cases"
+                },
+                {
+                    "source": "templates\/case-detail.json",
+                    "name": "Case Detail"
+                },
+                {
+                    "source": "templates\/attorney.json",
+                    "name": "Attorney"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "Faq"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/coming-soon.json",
+                    "name": "Coming Soon"
+                }
+            ],
+            "filesize": 109794,
+            "dimensions": [
+                1000,
+                667
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "lawyer-is-providing-information-about-the-client-s-2022-10-06-05-57-37-utc.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/lawyer-is-providing-information-about-the-client-s-2022-10-06-05-57-37-utc-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 181555,
+            "dimensions": [
+                1250,
+                834
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "portrait-of-female-lawyer-in-suit-with-documents-i-2022-11-02-01-31-54-utc.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/portrait-of-female-lawyer-in-suit-with-documents-i-2022-11-02-01-31-54-utc-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 159784,
+            "dimensions": [
+                1250,
+                834
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "lawyers-in-suits-working-together-on-project-at-wo-2022-11-02-01-13-28-utc.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/lawyers-in-suits-working-together-on-project-at-wo-2022-11-02-01-13-28-utc-800x1108.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-cases.json",
+                    "name": "Our Cases"
+                }
+            ],
+            "filesize": 183620,
+            "dimensions": [
+                837,
+                1159
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "signatures-download-clipart-29-e1670827213274.png",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/signatures-download-clipart-29-e1670827213274-800x317.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-cases.json",
+                    "name": "Our Cases"
+                }
+            ],
+            "filesize": 32601,
+            "dimensions": [
+                1000,
+                396
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "shape-1.png",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/shape-1-800x362.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/error-404.json",
+                    "name": "Error 404"
+                },
+                {
+                    "source": "templates\/single-product.json",
+                    "name": "Single Product"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/our-cases.json",
+                    "name": "Our Cases"
+                },
+                {
+                    "source": "templates\/attorney-detail.json",
+                    "name": "Attorney Detail"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "Faq"
+                }
+            ],
+            "filesize": 291972,
+            "dimensions": [
+                1920,
+                868
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "professional-lawyers-e1670827298830.png",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/professional-lawyers-800x768.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-cases.json",
+                    "name": "Our Cases"
+                },
+                {
+                    "source": "templates\/attorney.json",
+                    "name": "Attorney"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 347449,
+            "dimensions": [
+                600,
+                576
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "photo-of-clever-male-lawyer-waits-for-client-outdo-2022-08-17-21-37-58-utc.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/photo-of-clever-male-lawyer-waits-for-client-outdo-2022-08-17-21-37-58-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/attorney.json",
+                    "name": "Attorney"
+                },
+                {
+                    "source": "templates\/attorney-detail.json",
+                    "name": "Attorney Detail"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 144085,
+            "dimensions": [
+                779,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "smart-asian-business-woman-smiling-at-office-space-2022-11-18-09-57-02-utc-e1670827307404.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/smart-asian-business-woman-smiling-at-office-space-2022-11-18-09-57-02-utc-e1670827307404.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/attorney.json",
+                    "name": "Attorney"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 63174,
+            "dimensions": [
+                389,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "happy-mature-businessman-pointing-at-blank-noteboo-2022-11-17-08-47-48-utc.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/happy-mature-businessman-pointing-at-blank-noteboo-2022-11-17-08-47-48-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/attorney.json",
+                    "name": "Attorney"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 139698,
+            "dimensions": [
+                779,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "female-entrepreneur-2021-08-29-03-28-29-utc.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/female-entrepreneur-2021-08-29-03-28-29-utc.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/attorney.json",
+                    "name": "Attorney"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 129693,
+            "dimensions": [
+                779,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "couple-signing-agreement-with-lawyer-2021-12-09-15-13-25-utc-e1670827315836.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/couple-signing-agreement-with-lawyer-2021-12-09-15-13-25-utc-e1670827183257-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/search-result.json",
+                    "name": "Search Result"
+                },
+                {
+                    "source": "templates\/error-404.json",
+                    "name": "Error 404"
+                },
+                {
+                    "source": "templates\/products-archive.json",
+                    "name": "Products Archive"
+                },
+                {
+                    "source": "templates\/single-product.json",
+                    "name": "Single Product"
+                },
+                {
+                    "source": "templates\/cart.json",
+                    "name": "Cart"
+                },
+                {
+                    "source": "templates\/checkout.json",
+                    "name": "Checkout"
+                },
+                {
+                    "source": "templates\/my-account.json",
+                    "name": "My Account"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/services-detail.json",
+                    "name": "Services Detail"
+                },
+                {
+                    "source": "templates\/our-cases.json",
+                    "name": "Our Cases"
+                },
+                {
+                    "source": "templates\/case-detail.json",
+                    "name": "Case Detail"
+                },
+                {
+                    "source": "templates\/attorney.json",
+                    "name": "Attorney"
+                },
+                {
+                    "source": "templates\/attorney-detail.json",
+                    "name": "Attorney Detail"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "Faq"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 78809,
+            "dimensions": [
+                700,
+                466
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "experienced-female-lawyer-2021-08-26-19-52-09-utc.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/experienced-female-lawyer-2021-08-26-19-52-09-utc-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-cases.json",
+                    "name": "Our Cases"
+                },
+                {
+                    "source": "templates\/attorney-detail.json",
+                    "name": "Attorney Detail"
+                }
+            ],
+            "filesize": 122028,
+            "dimensions": [
+                965,
+                965
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "judge-gavel-with-justice-lawyers-business-woam-in-2022-10-24-23-34-34-utc.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/judge-gavel-with-justice-lawyers-business-woam-in-2022-10-24-23-34-34-utc-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-cases.json",
+                    "name": "Our Cases"
+                },
+                {
+                    "source": "templates\/attorney-detail.json",
+                    "name": "Attorney Detail"
+                }
+            ],
+            "filesize": 150531,
+            "dimensions": [
+                965,
+                965
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "woman-and-man-at-business-negotiations-office-wor-2022-11-14-01-07-44-utc.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/woman-and-man-at-business-negotiations-office-wor-2022-11-14-01-07-44-utc-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-cases.json",
+                    "name": "Our Cases"
+                },
+                {
+                    "source": "templates\/attorney-detail.json",
+                    "name": "Attorney Detail"
+                }
+            ],
+            "filesize": 145910,
+            "dimensions": [
+                965,
+                965
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "blond-mature-businesswoman-taking-folder-with-pape-2021-11-04-21-49-16-utc.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/blond-mature-businesswoman-taking-folder-with-pape-2021-11-04-21-49-16-utc-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-cases.json",
+                    "name": "Our Cases"
+                }
+            ],
+            "filesize": 224524,
+            "dimensions": [
+                965,
+                965
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "lawyers-are-advising-clients-about-real-estate-law-2021-08-27-09-31-04-utc.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/lawyers-are-advising-clients-about-real-estate-law-2021-08-27-09-31-04-utc-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-cases.json",
+                    "name": "Our Cases"
+                },
+                {
+                    "source": "templates\/case-detail.json",
+                    "name": "Case Detail"
+                }
+            ],
+            "filesize": 107172,
+            "dimensions": [
+                965,
+                965
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "young-contemporary-lawyer-or-auditor-consulting-af-2022-01-12-07-32-50-utc.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/young-contemporary-lawyer-or-auditor-consulting-af-2022-01-12-07-32-50-utc-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/our-cases.json",
+                    "name": "Our Cases"
+                },
+                {
+                    "source": "templates\/attorney.json",
+                    "name": "Attorney"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 175095,
+            "dimensions": [
+                965,
+                965
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "logo51.png",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/logo51.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/our-cases.json",
+                    "name": "Our Cases"
+                },
+                {
+                    "source": "templates\/attorney.json",
+                    "name": "Attorney"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "Faq"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 2973,
+            "dimensions": [
+                224,
+                46
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "logo31.png",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/logo31.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/our-cases.json",
+                    "name": "Our Cases"
+                },
+                {
+                    "source": "templates\/attorney.json",
+                    "name": "Attorney"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "Faq"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 2750,
+            "dimensions": [
+                180,
+                46
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "logo11.png",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/logo11.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/our-cases.json",
+                    "name": "Our Cases"
+                },
+                {
+                    "source": "templates\/attorney.json",
+                    "name": "Attorney"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "Faq"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 3199,
+            "dimensions": [
+                147,
+                46
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "logo61.png",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/logo61.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/our-cases.json",
+                    "name": "Our Cases"
+                },
+                {
+                    "source": "templates\/attorney.json",
+                    "name": "Attorney"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "Faq"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 2763,
+            "dimensions": [
+                166,
+                46
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "law-tes.png",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/law-tes-800x391.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 42256,
+            "dimensions": [
+                1432,
+                700
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "young-confident-economist-or-lawyer-checking-docum-2022-02-09-20-33-56-utc-e1670827283524.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/young-confident-economist-or-lawyer-checking-docum-2022-02-09-20-33-56-utc-e1670827190752-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 98489,
+            "dimensions": [
+                800,
+                533
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "logo-02.png",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/logo-02.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 3782,
+            "dimensions": [
+                265,
+                72
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-03.png",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/logo-03.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/coming-soon.json",
+                    "name": "Coming Soon"
+                }
+            ],
+            "filesize": 3456,
+            "dimensions": [
+                265,
+                73
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "bigyapan1.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/bigyapan1-800x114.jpg",
+            "templates": [
+                {
+                    "source": "templates\/archive.json",
+                    "name": "Archive"
+                }
+            ],
+            "filesize": 48050,
+            "dimensions": [
+                1400,
+                200
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "error-04.png",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/error-04.png",
+            "templates": [
+                {
+                    "source": "templates\/error-404.json",
+                    "name": "Error 404"
+                }
+            ],
+            "filesize": 17311,
+            "dimensions": [
+                262,
+                191
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "Legal-Gavel-Scales-And-Law-Book.H03.2k.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/Legal-Gavel-Scales-And-Law-Book.H03.2k-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/products-archive.json",
+                    "name": "Products Archive"
+                }
+            ],
+            "filesize": 138307,
+            "dimensions": [
+                2048,
+                2048
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "Gavel.H03.2k.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/Gavel.H03.2k-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/products-archive.json",
+                    "name": "Products Archive"
+                }
+            ],
+            "filesize": 126326,
+            "dimensions": [
+                2048,
+                2048
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "Bookshelf.H03.2k.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/Bookshelf.H03.2k-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/products-archive.json",
+                    "name": "Products Archive"
+                }
+            ],
+            "filesize": 173574,
+            "dimensions": [
+                2048,
+                2048
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "Scales-Of-Justice.H03.2k.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/Scales-Of-Justice.H03.2k-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/products-archive.json",
+                    "name": "Products Archive"
+                }
+            ],
+            "filesize": 161991,
+            "dimensions": [
+                2048,
+                2048
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "Ornate-Book-Closed-Brown.H03.2k.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/Ornate-Book-Closed-Brown.H03.2k-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/products-archive.json",
+                    "name": "Products Archive"
+                }
+            ],
+            "filesize": 173985,
+            "dimensions": [
+                2048,
+                2048
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        },
+        {
+            "filename": "Law-Book-and-Gavel.H03.2k.jpg",
+            "thumbnail_url": "https:\/\/htmldesigntemplates.com\/lawberg\/wp-content\/uploads\/sites\/22\/2022\/12\/Law-Book-and-Gavel.H03.2k-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/products-archive.json",
+                    "name": "Products Archive"
+                }
+            ],
+            "filesize": 151383,
+            "dimensions": [
+                2048,
+                2048
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/CHASN7Y4RD"
+        }
+    ]
+}
